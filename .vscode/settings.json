@@ -1,0 +1,11 @@
+{
+    "files.exclude": {
+        "**/.hg": false
+    },
+    "editor.wordWrap": "on",
+    "zenMode.hideActivityBar": true,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.statusBar.visible": true,
+    "editor.autoIndent": "keep",
+    
+}

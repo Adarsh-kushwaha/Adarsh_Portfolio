@@ -1,0 +1,166 @@
+/* Utility class */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 40px;
+}
+
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 20px;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+
+.grid-3{
+grid-template-columns: repeat(3, 1fr);
+}
+
+
+.card{
+background-color: #fff;
+color: #444;
+border-radius: 10px;
+box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.3);
+padding: 34px;
+margin: 10px;
+
+}
+
+.btn {
+display: inline-block;
+background-color: var(--primary-color);
+border: 0;
+padding: 10px 34px;
+border-radius: 5px;
+color: #fff;
+text-align: center;
+text-transform: capitalize;
+cursor: pointer;
+
+
+}
+
+.btn:hover{
+
+transition: 0.1s;
+transform: scale(1.01);
+
+}
+
+.btn-outline{
+padding: 8px 24px;
+margin-top: 12px;
+background: transparent;
+border: 1px white solid;
+
+}
+
+.text-center{
+text-align: center;
+}
+
+.bg-primary{
+background-color: var(--primary-color);
+}
+
+.lg{
+
+color: white;
+font-size: 40px;
+font-weight: 700;
+}
+
+.lead{
+
+color: white;
+font-size: 17px;
+
+}
+
+.bg-dark{
+background-color: rgb(37, 37, 37);
+}
+
+
+/* Margins */
+
+.my-1{
+margin: 1rem 0;
+}
+.my-2{
+margin: 1.5rem 0;
+}
+.my-3{
+margin: 2rem 0;
+}
+.my-4{
+margin: 3rem 0;
+}
+.my-5{
+margin: 7rem 0;
+}
+
+
+m-1{
+margin: 1rem;
+}
+m-2{
+margin: 2rem;
+}
+m-3{
+margin: 3rem;
+}
+m-4{
+margin: 4rem;
+}
+m-5{
+margin: 5rem;
+}
+
+
+/* padding */
+
+.py-1{
+padding: 1rem 0;
+}
+.py-2{
+padding: 1.5rem 0;
+}
+.py-3{
+padding: 2rem 0;
+}
+.py-4{
+padding: 3rem 0;
+}
+.py-5{
+padding: 4rem 0;
+}
+
+p-1{
+padding: 1rem;
+}
+p-2{
+padding: 2rem;
+}
+p-3{
+padding: 3rem;
+}
+p-4{
+padding: 4rem;
+}
+p-5{
+padding: 5rem;
+}
